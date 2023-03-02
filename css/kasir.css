@@ -1,0 +1,247 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAEAB1;
+}
+
+.container {
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    /* flex-direction: row */
+}
+
+.title {
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.sidebar {
+    border-right: 1px solid #D3756B;
+    width: 200px;
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar ul {
+    /* border: 1px solid blue; */
+    height: 200px;
+}
+
+.sidebar ul li {
+    /* border: 1px solid yellow; */
+    /* margin: 40px; */
+    width: 100%;
+    margin-right: 50px;
+    margin-top: 40px;
+    list-style: none;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    height: 60px;
+    /* background-color: red; */
+    border-bottom: 1px solid #D3756B;
+    /* border: 1px solid red; */
+}
+
+nav ul {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 15px;
+    color:#D3756B;
+    text-decoration: none;
+}
+
+main {
+    height: 90%;
+    /* width: 100%; */
+    /* border: 1px solid red; */
+}
+
+.order {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+
+}
+
+.order-box {
+    width: 400px;
+    height: 400px;
+    background-color:#ffdf69;
+    /* background-color: #FAEAB1; */
+    border: 1px solid #D3756B(5, 179, 179);
+    margin-left: 20px;
+}
+
+.form-order {
+    padding: 15px;
+}
+
+.title-order {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #D3756B(5, 179, 179);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-order {
+    height: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.input-order label {
+    font-size: 17px;
+}
+
+.input-label {
+    width: 190px;
+    height: 45px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #FAEAB1;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #D3756B;
+
+}
+
+.input-order input {
+    width: 240px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #D3756B;
+    outline: none;
+}
+
+.pilih-meja {
+    width: 120px;
+    height: 45px;
+    /* background-color: #1152df; */
+    background-color: #FAEAB1;
+    outline: none;
+    border: none;
+    color:black ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.input-order .meja {
+    width: 110px;
+}
+
+.button-order {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+}
+
+.button-order button {
+    width: 120px;
+    height: 40px;
+    /* background-color: #FAEAB1; */
+    background-color: #ffd84a;
+    outline: none;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.transaksi {
+    margin-left: 20px;
+    width: 700px;
+    height: 400px;
+    background-color: #ffdf69;
+    /* background-color: #D3756B; */
+    border: 2px solid #ffdf69;
+}
+
+.title-transaksi {
+    /* border: 1px solid red; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.table-transaksi {
+    /* border: 1px solid pink; */
+    height: 86%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.table-transaksi table {
+    border-collapse: collapse;
+    width: 100%;
+    /* border: 2px solid #FAEAB1; */
+    /* height: 40px; */
+}
+
+.table-transaksi table thead {
+    background-color: #FFF;
+    height: 50px;
+}
+
+.table-transaksi table thead tr th {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-transaksi table tr {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-transaksi table tbody{
+    height: 100px;
+    /* width: 100%; */
+}
+
+.bayar {
+    /* border: 1px solid red; */
+    height: 195px;
+}
+
+.bayar form {
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 200px;
+}

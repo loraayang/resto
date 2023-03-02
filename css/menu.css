@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAEAB1;
+}
+
+.container {
+    /* display: flex; */
+    /* border: 1px solid yellow; */
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.menu1, .menu2, .menu3, .menu4, .menu5 {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+}
+
+.menu h1 {
+    text-align: center;
+}
+
+.logout {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 1px solid red;
+    border-radius: 5px;
+}
+
+.logout button{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 90%;
+    width: 80px;
+    height: 30px;
+    background-color: #D3756B;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.logout a {
+    text-decoration: none;
+    color: #FAEAB1;
+}
